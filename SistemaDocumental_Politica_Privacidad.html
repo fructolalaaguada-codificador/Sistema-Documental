@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Documental - Politica de Privacidad</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f0f4ff;
+      color: #1a1a2e;
+      line-height: 1.7;
+    }
+    header {
+      background: #050e1f;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 3px solid #c8a84b;
+    }
+    header h1 {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    header span {
+      color: #c8a84b;
+      font-size: 13px;
+      display: block;
+      margin-top: 2px;
+      letter-spacing: 1px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+    .meta-box {
+      background: #fff;
+      border: 1px solid #e0e7ff;
+      border-left: 4px solid #c8a84b;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .meta-box .row { font-size: 13px; color: #6b7280; }
+    .meta-box .row strong { color: #050e1f; }
+    h2 {
+      color: #050e1f;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8f0fe;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 .num {
+      background: #c8a84b;
+      color: #050e1f;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 20px;
+      min-width: 28px;
+      text-align: center;
+    }
+    h3 {
+      color: #1e3a5f;
+      font-size: 15px;
+      font-weight: 700;
+      margin: 20px 0 8px;
+    }
+    p { margin-bottom: 12px; font-size: 15px; color: #374151; }
+    ul { margin: 8px 0 16px 20px; }
+    ul li {
+      font-size: 15px;
+      color: #374151;
+      margin-bottom: 6px;
+      padding-left: 4px;
+    }
+    ul li::marker { color: #c8a84b; }
+    .highlight-box {
+      background: #fff8e6;
+      border: 1px solid #fde68a;
+      border-left: 4px solid #c8a84b;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #78350f;
+    }
+    .no-collect {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 4px solid #4cdb8a;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .no-collect li { color: #166534; }
+    .perms-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 16px 0;
+    }
+    .perm-card {
+      background: #fff;
+      border: 1px solid #e0e7ff;
+      border-top: 3px solid #1e3a5f;
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .perm-card .perm-name {
+      font-family: monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: #c8a84b;
+      background: #050e1f;
+      padding: 3px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    .perm-card p { font-size: 13px; margin: 0; }
+    .contact-box {
+      background: #050e1f;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-top: 20px;
+      color: #fff;
+    }
+    .contact-box .label { color: #c8a84b; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px; }
+    .contact-box .value { color: #e8e8e8; font-size: 15px; margin-bottom: 16px; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      background: #050e1f;
+      color: #6b7280;
+      font-size: 13px;
+      border-top: 3px solid #c8a84b;
+      margin-top: 60px;
+    }
+    @media (max-width: 600px) {
+      .meta-box { grid-template-columns: 1fr; }
+      .perms-grid { grid-template-columns: 1fr; }
+      header { padding: 16px 20px; }
+      .container { padding: 0 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Sistema Documental</h1>
+    <span>POLITICA DE PRIVACIDAD</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="meta-box">
+    <div class="row"><strong>Empresa:</strong> Agricola La Aguada Ltda.</div>
+    <div class="row"><strong>App ID:</strong> com.aguada.sistemadocumental</div>
+    <div class="row"><strong>Version:</strong> 1.0</div>
+    <div class="row"><strong>Ultima actualizacion:</strong> Abril 2026</div>
+    <div class="row"><strong>Contacto:</strong> contacto@caletabaymar.cl</div>
+    <div class="row"><strong>Plataforma:</strong> Android (Google Play)</div>
+  </div>
+
+  <!-- 1 -->
+  <h2><span class="num">1</span> Introduccion</h2>
+  <p>La presente Politica de Privacidad describe como <strong>Agricola La Aguada Ltda.</strong> recopila, usa y protege la informacion personal de los usuarios de la aplicacion movil <strong>Sistema Documental</strong>.</p>
+  <p>Al usar Sistema Documental, el usuario acepta las practicas descritas en esta politica. Si no esta de acuerdo, debe dejar de usar la aplicacion.</p>
+
+  <!-- 2 -->
+  <h2><span class="num">2</span> Informacion que recopilamos</h2>
+
+  <h3>2.1 Informacion proporcionada por el usuario</h3>
+  <ul>
+    <li>Nombre completo del trabajador (rendidor)</li>
+    <li>Datos de documentos tributarios: RUT del proveedor, razon social, folio, monto, fecha</li>
+    <li>Imagenes de documentos capturadas con la camara del dispositivo</li>
+    <li>Firma digital manuscrita sobre la pantalla tactil</li>
+    <li>Descripcion, orden de compra o CECO asociado al documento</li>
+  </ul>
+
+  <h3>2.2 Informacion recopilada automaticamente</h3>
+  <ul>
+    <li>Identificador unico del dispositivo (Device Token generado localmente mediante SHA-256)</li>
+    <li>Informacion del agente de usuario (modelo del dispositivo, version del sistema operativo)</li>
+    <li>Timestamp de cada envio de documento</li>
+    <li>Estado de conectividad al momento del envio</li>
+  </ul>
+
+  <h3>2.3 Informacion que NO recopilamos</h3>
+  <div class="no-collect">
+    <ul>
+      <li>No recopilamos datos de ubicacion GPS</li>
+      <li>No accedemos a contactos del dispositivo</li>
+      <li>No leemos mensajes ni correos electronicos</li>
+      <li>No grabamos audio ni video</li>
+      <li>No accedemos a otros archivos del dispositivo fuera de los seleccionados por el usuario</li>
+    </ul>
+  </div>
+
+  <!-- 3 -->
+  <h2><span class="num">3</span> Como usamos la informacion</h2>
+  <ul>
+    <li>Registrar y gestionar documentos tributarios en operaciones agricolas internas</li>
+    <li>Generar un historial de recepciones documentales por trabajador y unidad</li>
+    <li>Verificar la autenticidad e integridad de los documentos enviados</li>
+    <li>Procesar el contenido de documentos mediante reconocimiento optico de caracteres (OCR) con inteligencia artificial</li>
+    <li>Almacenar archivos en Google Drive para consulta posterior por el equipo administrativo</li>
+    <li>Detectar y prevenir uso no autorizado de la aplicacion</li>
+  </ul>
+
+  <!-- 4 -->
+  <h2><span class="num">4</span> Como compartimos la informacion</h2>
+  <p>No vendemos, arrendamos ni compartimos informacion personal con terceros con fines comerciales. La informacion se comparte unicamente con:</p>
+
+  <h3>Google (infraestructura)</h3>
+  <p>Los datos se almacenan en Google Sheets y Google Drive bajo la cuenta corporativa de Agricola La Aguada Ltda. Google procesa estos datos conforme a su propia politica de privacidad.</p>
+
+  <h3>Anthropic (procesamiento OCR)</h3>
+  <p>Las imagenes de documentos se envian a la API de Anthropic Claude para extraccion de texto mediante inteligencia artificial. No se almacenan datos personales en los servidores de Anthropic.</p>
+
+  <h3>Equipo administrativo interno</h3>
+  <p>El personal autorizado de Agricola La Aguada Ltda. tiene acceso a los registros para fines de contabilidad, control de costos y auditoria interna.</p>
+
+  <!-- 5 -->
+  <h2><span class="num">5</span> Almacenamiento y seguridad</h2>
+
+  <h3>Donde se almacenan los datos</h3>
+  <ul>
+    <li><strong>Datos del formulario:</strong> Google Sheets (servidores de Google)</li>
+    <li><strong>Imagenes y firmas:</strong> Google Drive (servidores de Google)</li>
+    <li><strong>Datos offline temporales:</strong> localStorage del dispositivo unicamente</li>
+    <li><strong>Historial local:</strong> localStorage del dispositivo (no se sincroniza externamente)</li>
+  </ul>
+
+  <h3>Medidas de seguridad implementadas</h3>
+  <ul>
+    <li>Comunicacion cifrada HTTPS en todas las transmisiones</li>
+    <li>Credenciales almacenadas con cifrado XOR+Base64, nunca en texto plano</li>
+    <li>Token de dispositivo generado con SHA-256 para autenticacion</li>
+    <li>Firma HMAC-SHA256 en cada documento para garantizar integridad</li>
+    <li>Sanitizacion de entradas para prevenir inyeccion de codigo malicioso</li>
+    <li>Validacion de archivos por magic bytes para prevenir carga de archivos no permitidos</li>
+  </ul>
+
+  <div class="highlight-box">
+    Los datos se conservan mientras sean necesarios para las operaciones de Agricola La Aguada Ltda. El historial local en el dispositivo puede ser eliminado por el usuario desde el menu de la aplicacion en cualquier momento.
+  </div>
+
+  <!-- 6 -->
+  <h2><span class="num">6</span> Permisos del dispositivo</h2>
+  <div class="perms-grid">
+    <div class="perm-card">
+      <div class="perm-name">CAMERA</div>
+      <p>Para fotografiar documentos tributarios. Se activa solo cuando el usuario toca el boton de captura. No hay captura automatica ni en segundo plano.</p>
+    </div>
+    <div class="perm-card">
+      <div class="perm-name">READ_MEDIA_IMAGES</div>
+      <p>Para seleccionar documentos desde la galeria. Solo se accede a archivos que el usuario selecciona explicitamente.</p>
+    </div>
+    <div class="perm-card">
+      <div class="perm-name">INTERNET</div>
+      <p>Para enviar datos al backend y procesamiento OCR. Sin conexion, los documentos se guardan localmente y se envian al recuperar la red.</p>
+    </div>
+    <div class="perm-card">
+      <div class="perm-name">VIBRATE</div>
+      <p>Para confirmacion haptica al escanear codigos QR y completar envios de documentos.</p>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <h2><span class="num">7</span> Derechos del usuario</h2>
+  <ul>
+    <li>Acceder a los datos personales que la aplicacion ha recopilado</li>
+    <li>Solicitar la correccion de datos incorrectos</li>
+    <li>Solicitar la eliminacion de sus datos personales del sistema</li>
+    <li>Limpiar el historial local desde el menu de la aplicacion en cualquier momento</li>
+    <li>Revocar el acceso del dispositivo contactando al administrador</li>
+  </ul>
+  <p>Para ejercer estos derechos: <strong>contacto@caletabaymar.cl</strong></p>
+
+  <!-- 8 -->
+  <h2><span class="num">8</span> Uso por menores de edad</h2>
+  <p>Sistema Documental es de uso exclusivo para trabajadores mayores de 18 anos de Agricola La Aguada Ltda. y sus empresas relacionadas. No esta disenada ni dirigida a menores de edad. No recopilamos intencionalmente informacion de menores.</p>
+
+  <!-- 9 -->
+  <h2><span class="num">9</span> Cambios a esta politica</h2>
+  <p>Podemos actualizar esta Politica de Privacidad periodicamente. Notificaremos los cambios significativos mediante una actualizacion en la aplicacion o por correo electronico. La fecha de la ultima actualizacion aparece al inicio de este documento.</p>
+
+  <!-- 10 -->
+  <h2><span class="num">10</span> Contacto</h2>
+  <div class="contact-box">
+    <div class="label">Empresa</div>
+    <div class="value">Agricola La Aguada Ltda.</div>
+    <div class="label">Correo electronico</div>
+    <div class="value">contacto@caletabaymar.cl</div>
+    <div class="label">Aplicacion</div>
+    <div class="value">Sistema Documental (com.aguada.sistemadocumental)</div>
+  </div>
+
+</div>
+
+<footer>
+  Sistema Documental &nbsp;|&nbsp; Politica de Privacidad v1.0 &nbsp;|&nbsp; Abril 2026 &nbsp;|&nbsp; Agricola La Aguada Ltda.
+</footer>
+
+</body>
+</html>
